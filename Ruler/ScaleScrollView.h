@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ScaleScrollView.h
 //  FZFScaleDemo
 //
 //  Created by FZF on 15/8/28.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ScaleScrollView : UIScrollView
 
 @end
-

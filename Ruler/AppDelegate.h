@@ -1,9 +1,9 @@
 //
 //  AppDelegate.h
-//  Ruler
+//  FZFScaleDemo
 //
-//  Created by FZF on 16/2/15.
-//  Copyright © 2016年 FZF. All rights reserved.
+//  Created by FZF on 15/8/28.
+//  Copyright (c) 2015年 FZF. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

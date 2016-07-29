@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		3267CC5D1C71AE1300361CC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3267CC5C1C71AE1300361CC0 /* main.m */; };
 		3267CC601C71AE1300361CC0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3267CC5F1C71AE1300361CC0 /* AppDelegate.m */; };
-		3267CC631C71AE1300361CC0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3267CC621C71AE1300361CC0 /* ViewController.m */; };
 		3267CC661C71AE1300361CC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3267CC641C71AE1300361CC0 /* Main.storyboard */; };
 		3267CC681C71AE1300361CC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3267CC671C71AE1300361CC0 /* Assets.xcassets */; };
 		3267CC6B1C71AE1300361CC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3267CC691C71AE1300361CC0 /* LaunchScreen.storyboard */; };
 		3267CC761C71AE1300361CC0 /* RulerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3267CC751C71AE1300361CC0 /* RulerTests.m */; };
 		3267CC811C71AE1300361CC0 /* RulerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3267CC801C71AE1300361CC0 /* RulerUITests.m */; };
+		9FDA399D1D4B8D4F003A62AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDA39941D4B8D4F003A62AB /* ViewController.m */; };
+		9FDA399E1D4B8D4F003A62AB /* FFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDA39961D4B8D4F003A62AB /* FFViewController.m */; };
+		9FDA399F1D4B8D4F003A62AB /* ScaleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDA39981D4B8D4F003A62AB /* ScaleScrollView.m */; };
+		9FDA39A01D4B8D4F003A62AB /* UIView+AutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDA399A1D4B8D4F003A62AB /* UIView+AutoLayout.m */; };
+		9FDA39A11D4B8D4F003A62AB /* ScaleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDA399C1D4B8D4F003A62AB /* ScaleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +43,6 @@
 		3267CC5C1C71AE1300361CC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3267CC5E1C71AE1300361CC0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3267CC5F1C71AE1300361CC0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3267CC611C71AE1300361CC0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3267CC621C71AE1300361CC0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3267CC651C71AE1300361CC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3267CC671C71AE1300361CC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3267CC6A1C71AE1300361CC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +53,16 @@
 		3267CC7C1C71AE1300361CC0 /* RulerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RulerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3267CC801C71AE1300361CC0 /* RulerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RulerUITests.m; sourceTree = "<group>"; };
 		3267CC821C71AE1300361CC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FDA39931D4B8D4F003A62AB /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9FDA39941D4B8D4F003A62AB /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9FDA39951D4B8D4F003A62AB /* FFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFViewController.h; sourceTree = "<group>"; };
+		9FDA39961D4B8D4F003A62AB /* FFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFViewController.m; sourceTree = "<group>"; };
+		9FDA39971D4B8D4F003A62AB /* ScaleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaleScrollView.h; sourceTree = "<group>"; };
+		9FDA39981D4B8D4F003A62AB /* ScaleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaleScrollView.m; sourceTree = "<group>"; };
+		9FDA39991D4B8D4F003A62AB /* UIView+AutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AutoLayout.h"; sourceTree = "<group>"; };
+		9FDA399A1D4B8D4F003A62AB /* UIView+AutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AutoLayout.m"; sourceTree = "<group>"; };
+		9FDA399B1D4B8D4F003A62AB /* ScaleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaleView.h; sourceTree = "<group>"; };
+		9FDA399C1D4B8D4F003A62AB /* ScaleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +115,16 @@
 			children = (
 				3267CC5E1C71AE1300361CC0 /* AppDelegate.h */,
 				3267CC5F1C71AE1300361CC0 /* AppDelegate.m */,
-				3267CC611C71AE1300361CC0 /* ViewController.h */,
-				3267CC621C71AE1300361CC0 /* ViewController.m */,
+				9FDA39931D4B8D4F003A62AB /* ViewController.h */,
+				9FDA39941D4B8D4F003A62AB /* ViewController.m */,
+				9FDA39951D4B8D4F003A62AB /* FFViewController.h */,
+				9FDA39961D4B8D4F003A62AB /* FFViewController.m */,
+				9FDA39971D4B8D4F003A62AB /* ScaleScrollView.h */,
+				9FDA39981D4B8D4F003A62AB /* ScaleScrollView.m */,
+				9FDA39991D4B8D4F003A62AB /* UIView+AutoLayout.h */,
+				9FDA399A1D4B8D4F003A62AB /* UIView+AutoLayout.m */,
+				9FDA399B1D4B8D4F003A62AB /* ScaleView.h */,
+				9FDA399C1D4B8D4F003A62AB /* ScaleView.m */,
 				3267CC641C71AE1300361CC0 /* Main.storyboard */,
 				3267CC671C71AE1300361CC0 /* Assets.xcassets */,
 				3267CC691C71AE1300361CC0 /* LaunchScreen.storyboard */,
@@ -270,9 +290,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3267CC631C71AE1300361CC0 /* ViewController.m in Sources */,
+				9FDA399F1D4B8D4F003A62AB /* ScaleScrollView.m in Sources */,
+				9FDA39A01D4B8D4F003A62AB /* UIView+AutoLayout.m in Sources */,
+				9FDA399E1D4B8D4F003A62AB /* FFViewController.m in Sources */,
+				9FDA399D1D4B8D4F003A62AB /* ViewController.m in Sources */,
 				3267CC601C71AE1300361CC0 /* AppDelegate.m in Sources */,
 				3267CC5D1C71AE1300361CC0 /* main.m in Sources */,
+				9FDA39A11D4B8D4F003A62AB /* ScaleView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +522,7 @@
 				3267CC871C71AE1300361CC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3267CC881C71AE1300361CC0 /* Build configuration list for PBXNativeTarget "RulerTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +531,7 @@
 				3267CC8A1C71AE1300361CC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3267CC8B1C71AE1300361CC0 /* Build configuration list for PBXNativeTarget "RulerUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +540,7 @@
 				3267CC8D1C71AE1300361CC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
